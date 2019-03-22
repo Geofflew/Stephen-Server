@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import {BrowserRouter, Route} from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../actions';
-import Landing from './landing';
 
 import Header from './Header';
-const Dashboard = () => <h2> Dasbhoard</h2>
-const SurveyNew = () => <h2> SurveyNew</h2>
+import Landing from './landing';
+import Dashboard from './Dashboard';
+import SurveyNew from './surveys/SurveyNew';
 
 
 class App extends Component {
